@@ -1,0 +1,44 @@
+body{
+    font-family: 'Nunito', sans-serif;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: 300% 300%;
+      background-image: linear-gradient(
+            -45deg, 
+            rgb(208, 182, 144) 0%, 
+            rgb(111, 104, 55) 25%, 
+            rgb(80, 76, 95) 51%, 
+            rgb(146, 100, 36) 100%
+      );  
+      animation: AnimateBG 15s ease infinite;
+    }
+    
+    @keyframes AnimateBG { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+  
+    * {
+      color: #FFF;
+    }
+  
+    #Update {
+      display: none;
+    }
+  
+    title {
+      font-size: 400px;
+    }
+  
+    .btn-danger {
+      margin-left: 0.3em;
+      
+    }
+  
+    .btn {
+      margin-bottom: 1em;
+    }
